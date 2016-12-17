@@ -1,0 +1,92 @@
+/* --- root */
+
+html {
+  font-size: 62.5%;
+}
+@media screen and (min-width: 1320px) {
+  html {
+    font-size: 68%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 82%;
+  }
+}
+@media screen and (min-width: 2500px) {
+  html {
+    font-size: 92%;
+  }
+}
+
+body {
+  background: url('../img/bg.jpg') center;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  font-family: GTPressura, 'sans-serif';
+  -webkit-font-smoothing: antialiased;
+}
+
+*, *::before, *::after {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* --- fonts */
+
+@font-face {
+  font-family: 'GTPressura';
+  src: url('../fonts/GTPressura.eot');
+  src: url('../fonts/GTPressura.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GTPressura.woff') format('woff'),
+    url('../fonts/GTPressura.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'SharpSansNo1';
+  src: url('../fonts/SharpSansNo1-Extrabold.eot');
+  src: url('../fonts/SharpSansNo1-Extrabold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SharpSansNo1-Extrabold.woff') format('woff'),
+    url('../fonts/SharpSansNo1-Extrabold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+/* --- headings */
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* --- misc */
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+strong {
+  font-weight: bold;
+}
