@@ -27,7 +27,6 @@ html {
 body {
   background: url('../img/bg.jpg') center;
   background-size: cover;
-  height: 100vh;
   color: #fff;
   font-family: GTPressura, 'sans-serif';
   -webkit-font-smoothing: antialiased;

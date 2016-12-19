@@ -89,6 +89,11 @@
   font-size: 1.5rem;
   letter-spacing: 2px;
   padding: 1.2rem 2rem;
+  transition: background .3s, color .3s;
+}
+.Button:hover {
+  background: #f5da59;
+  color: #000;
 }
 @media screen and (min-width: 375px) {
   .Button {
