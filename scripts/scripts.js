@@ -1,4 +1,4 @@
-sr.reveal('.js-reveal',
+sr.reveal('.js-splash',
 {
   distance: '7.5rem',
   scale: 1,
@@ -9,7 +9,9 @@ sr.reveal('.js-reveal',
 
 $(document).ready(function(){
   $(".js-btn").click(function(){
-    $(".js-btn-main").slideToggle();
+    $(".js-hides").slideToggle();
+    $(".js-hides").toggleClass("is-hidden");
     $(".js-form").slideToggle();
+    $(".js-header").toggleClass("is-smaller");
   });
 });
